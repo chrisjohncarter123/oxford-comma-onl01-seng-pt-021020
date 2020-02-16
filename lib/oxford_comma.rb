@@ -7,7 +7,7 @@ def oxford_comma(array)
       result += " and #{word}"
     else
       result += ", #{word}"
-    
+    end
   end
   result
 end
