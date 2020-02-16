@@ -8,6 +8,6 @@ def oxford_comma(array)
     else
       result += ", #{word}"
     
-  }
+  end
   result
 end
