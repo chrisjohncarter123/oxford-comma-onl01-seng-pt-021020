@@ -5,7 +5,7 @@ def oxford_comma(array)
     remaining = array.length - index
     if(index == 0 && remaining == 1)
       result = word
-    elsif(index == 0 && remaining > 1)
+    elsif(index > 0 && remaining > 1)
       result += ", #{word}"
     elsif(remaining == 1)
       result += " and #{word}"
